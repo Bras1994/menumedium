@@ -1,0 +1,403 @@
+body{
+    background-color: #96bfce;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+header{
+    display: block;
+    width: 100%;
+    background-color: #65b7c1;
+    height: fit-content;
+}
+
+/*Presentación*/
+
+.bg-light {
+    --bs-bg-opacity: none !important;
+}
+
+
+.navbar-brand{
+    font-family: 'Cinzel', serif;
+    margin-left: -3em;
+    font-size: 40px;
+    text-align: 0 0 auto;
+    max-width: 100%;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+}
+
+.d-inline-block{
+    height: 2em;
+    margin-right: 1em;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+h3{
+    font-size:35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: auto;
+    height: 60px;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.text-center{
+    padding-top: 1em;
+}
+
+/*Contacto*/
+
+.btn {
+    margin-top: 3em;
+    float: right;
+}
+
+.icon{
+    display: flex;
+    float: right;
+    height: 30px;
+    
+}
+
+.phone{
+    margin-top: 13px;
+    margin-bottom:2px ;
+    height: 25px;
+}
+
+.d-grid{
+    right: -10em;
+    align-content: flex-end;
+}
+
+
+/*Boton-Categorias*/
+
+.btn-secondary{
+    display: none;
+}
+
+/*wifi*/
+
+.wifi{
+    text-align: center;    
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.bg-secondary-wifi{
+    background-color:#547da7 ;
+    color: #212529 ;
+    
+}
+
+
+/* Menú */
+
+.collapse:not(.show){
+    display: flex;
+}
+
+/*Boton Up*/
+.img-up{
+    display: flex;
+    padding: 0 1em 0.5em;
+    color: #d2c6ba;
+    height: 20px;
+    float: right;
+}
+
+
+/*barra-Categorias*/
+
+.nav-main{
+    scroll-behavior: smooth;
+}
+
+.categoryMenu{
+    width: 100%;
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    overflow-x: auto;
+    top: 0px;
+    background-color: #547da7;
+    text-align: center;
+}
+
+/*Categorias*/
+
+.category{
+    margin-top: 2em;
+    font-style: italic;
+}
+
+.category-item{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(228, 228, 228);
+    height: 100px;
+}
+
+
+.description{
+    margin-top: auto;
+    padding: 0px 10px 16px;
+    height: 88px;
+    flex-grow: 10;
+}
+
+.col{
+    flex: none !important;
+}
+
+.titulo-categoria{
+    display: block;
+    background-color: #d2c6ba;
+    padding-left: 1em;
+    font-size: 30px;
+
+}
+.title-food{
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+    
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+}
+
+.col-3{
+    margin: 30px 10px auto;
+
+}
+
+.price{
+    font-size: 15px;
+    padding-right: 10px;
+    float: right;
+    color: rgb(26, 98, 113);
+    font-weight: 600;
+}    
+    
+
+#footer{
+    display: none;
+}
+
+.text-center{
+    margin-top: -1em;
+}
+
+
+/*@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {*/
+    @media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+        /* iPhone only */
+        /* Styles */
+    
+    body{
+        display: block;
+        padding-top: 100px;
+    }
+
+    .btn-up{
+        display: none;
+    }
+
+    /*Header*/
+
+    header{
+        height: fit-content;
+        position: fixed;
+        margin-top: -100px;
+    }
+
+    .container{
+        margin-top: 0;
+    }
+
+    .navbar-brand{
+        font-family: 'Cinzel', serif;
+        margin-left: -1.5em;
+        font-size: 25px;
+        text-align: 0 0 auto;
+        max-width: 100%;
+        line-height: 0;
+        display: flex;
+        align-items: center;
+        z-index: 1;
+    }
+
+
+    .d-inline-block{
+        height: 2em;
+        margin-right: 10px;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+
+
+    p{
+        font-size: 12px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-style:normal;
+        overflow:scroll;
+        white-space: nowrap;
+        /*text-overflow: ellipsis;*/
+    }
+
+    .btn{
+        display: none;
+    }
+
+    img{
+        height: 40px;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    
+
+    /*Boton-Categorias*/
+
+.btn-secondary{
+    display: block;
+    align-items: center;
+    float: right;
+    margin-top: 1.5em;
+    margin-right: -120%;
+    vertical-align: middle;
+    z-index: 2;
+    height: fit-content;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-secondary:active{
+    color:transparent;
+    background-color: transparent;
+    border-color: none;
+    box-shadow: none;
+}
+
+.btn-secondary:hover{
+    color:transparent;
+    background-color: transparent;
+    border-color: transparent !important;
+}
+
+.btn-secondary:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.icon-menu-despl{
+    height: 20px;
+    padding: 0px !important;
+    text-align: center;
+}
+
+    /*Wifi*/
+
+    .wifi{
+        text-align: center;
+        font-size: 20px;
+        margin: 25px 0 0!important;
+        padding-top: 25px;
+        
+    }
+
+    /*barra menu*/
+
+    .nav-main{
+        display: none;
+        
+    }
+
+    .bar-category{
+            display: none;
+        }
+
+    /*categorias*/
+
+    .row{
+        --bs-gutter-x: none;
+    }
+
+    
+    .description{
+        padding: 0px 30px 16px;
+    }
+
+    .titulo-categoria{
+        font-size: 20px;
+        display: block;
+        background-color: #d2c6ba;
+        padding-left: 1em; 
+    }
+
+    
+    /*Footer Mobile*/
+
+    #footer{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .row-footer{
+        flex-wrap: nowrap;
+    }
+
+    .col-3{
+        margin: auto;
+    }
+
+    footer{
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .phone{
+        margin-top: 22px;
+        margin-bottom:2px ;
+        height: 25px;
+    }
+    .icon-footer{
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .text-center{
+        background-color: #ebebeb;
+        height: fit-content;
+        padding-top: 0px;
+    }
+
+    }
+

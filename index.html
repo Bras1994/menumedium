@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="icon" href="imagenes/Hotel - Mar del Plata.png" class="icon-pestaña">
+    <title>Menú Medium</title>
+</head>
+<body>
+    <header>
+        <a id="arriba"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 navbar">
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">
+                            <img src="imagenes/Hotel - Mar del Plata.png" alt="" class="d-inline-block align-text-top"/>
+                            Hotel Aryanama
+                          </a>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-2">
+
+                </div>
+                <div class="col-4 main">                        
+                    <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="imagenes/menu-solid.svg" alt="" class="icon-menu-despl">
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="#cafeteria">Cafeteria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="#pprincipales">Platos Principales</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="#minfantil">Menú Infantil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="#minutas">Minutas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="#postres">Postres</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" href="#bebidas">Bebidas</a>
+                                </li>
+                            </ul>
+                </div>
+                </div>
+                <div class="col-4">
+                    <button class="btn me-md-2" type="button"><a href="https://www.instagram.com/" target="_blank" class="redes"><img src="imagenes/instagram-brands.svg" alt="" class="icon"></i></a></button>
+                    <button class="btn" type="button"><a href="https://wa.me/542236699234?text=Hola!%20Quiero%20hacer%20un%20pedido%20de%20un%20menú%20." target="_blank" class="redes wsp"><img src="imagenes/whatsapp-brands.svg" alt="" class="icon"></i></a></button>
+                    <button class="btn " type="button"><a href="#" target="_blank" class="redes phone"><img src="imagenes/llamada-telefonica.svg" alt="" class="icon phone"></i></a></button>
+                    <button class="btn me-md-2" type="button"><a href="https://goo.gl/maps/bbdc4uWkLQhMVkCz7" target="_blank" class="redes"><img src="imagenes/ubicacion.svg" alt="" class="icon"></i></a></button>
+
+            
+        </div>
+    </header>
+    
+<!--Barra de menu-->
+    <section class="nav-main">
+        <div class="categoryMenu">
+            <div class="col-2">
+                <span><a class="dropdown-item" href="#cafeteria">Cafeteria</a></span>
+            </div>
+            <div class="col-2">
+                <span><a class="dropdown-item" href="#pprincipales">Platos Principales</a></span>
+            </div>
+            <div class="col-2">
+                <span><a class="dropdown-item" href="#minfantil">Menú Infantil</a></span></div>
+            <div class="col-2"><span><a class="dropdown-item" href="#minutas">Minutas</a></span>
+            </div>
+            <div class="col-2">
+                <span><a class="dropdown-item" href="#postres">Postres</a></span>
+            </div>
+            <div class="col-2">
+                <span><a class="dropdown-item" href="#bebidas">Bebidas</a></span>
+            </div>
+        </div>
+    </section>
+    
+<!--Red de Wifi-->
+    <h3 class="wifi"><span class="badge bg-secondary-wifi">Clave Wifi: 12345678</span> </h3>
+    <!--Cafeteria-->
+    <section class="category">
+        <a id="cafeteria"><span class="titulo-categoria">Cafeteria</span></a>
+        
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/cafe.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Café</span>
+                    <p>Cafe/Cafe con leche/Lagrima - Con 1 factura</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$150.-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/capuccino.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Capuccino</span>
+                    <p>Cafe,chocolate y crema - Con 1 factura</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/te.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Té</span>
+                    <p>A elección: tilo, manzanilla, digestivo, frutos rojos, verde</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$150.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/submarino.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Submarino</span>
+                    <p>Leche con chocolate Aguila</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/tostado.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Tostado</span>
+                    <p>Pan de miga, con jamon y queso</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/porcion.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Porción de torta</span>
+                    <p>A elección</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#arriba" class="btn-up"><img src="imagenes/up.svg" alt="" class="img-up"></a>
+     <!--Plato principal-->
+    <section class="category">
+        <a id="pprincipales"><span class="titulo-categoria">Platos Principales</span></a>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/pastel-papas.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Pastel de Papas</span>
+                    <p>Con carne de ternera - pure de papas - queso cremoso.</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$450.-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/bife.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Bife a la Criolla</span>
+                    <p>Bife con verduras - Guarnicion: fritas o puré.</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$500.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/pasta.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Pastas con Salsa</span>
+                    <p>Tallarines o ñoquis - Salsa a elección: boloñesa - bechamel</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$480.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/estofado-veggie.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Estofado de Vegetales</span>
+                    <p>Rataoutille de vegetales, con salsa de soja.</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$450.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/veggie.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Sobre de Vegetales</span>
+                    <p>Sobre de papas con vegetales-Guarnición: fritas - puré</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$450.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/champi.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Pastas con Champigñones</span>
+                    <p>Pasta a elección</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$400.-</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <a href="#arriba" class="btn-up"><img src="imagenes/up.svg" alt="" class="img-up"></a>
+    <!--Menu Infantil-->
+    <section class="category">
+        <a id="minfantil"><span class="titulo-categoria">Menú Infantil</span></a>
+        
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/nuggets.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Nuggets</span>
+                    <p>Nuggets de pollo - Guarnicion: fritas o puré</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$400.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/burgues-simple.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Hamburguesa</span>
+                    <p>Hamburguesa con jamon y queso - Papas fritas</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$450.-</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <a href="#arriba" class="btn-up"><img src="imagenes/up.svg" alt="" class="img-up"></a>
+    <!--Minutas-->
+    <section class="category">
+        <a id="minutas"><span class="titulo-categoria">Minutas</span></a>
+
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/pizza.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Pizza Muzzarella</span>
+                    <p>Opcional: con aceitunas</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$450.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/pizza-esp.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Pizza Especial</span>
+                    <p>Calabresa - Cebolla - Especial con Morrones - Rucula y Crudo - Combinada</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$550.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/burguer.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Hamburguesa Completa c/ Fritas</span>
+                    <p>Medallon de carne con lechuga,tomate,jamon,queso y huevo</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$550.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/fritas-salsa.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Papas Fritas con Chedar</span>
+                    <p>Porción para compartir - Salsa de cheddar, panceta y verdeo</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$500.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/fritas.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Papasa fritas</span>
+                    <p>Porción de papas fritas</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#arriba" class="btn-up"><img src="imagenes/up.svg" alt="" class="img-up"></a>
+    <!--Postres-->
+    <section class="category">
+        <a id="postres"><span class="titulo-categoria">Postres</span></a>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/panqueques.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Panqueques</span>
+                    <p>Con dulce de leche</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$300.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/flan.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Flan Casero</span>
+                    <p>Op: con crema y dulce de leche</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$350.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/alf-helado.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Alfajor Helado</span>
+                    <p>De chocolate y americana, con dulde de leche.</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/minitortas.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Minitortas</span>
+                    <p>A elección: chocotorta, frutos rojos, ricota, selva negra.</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$250.-</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <a href="#arriba" class="btn-up"><img src="imagenes/up.svg" alt="" class="img-up"></a>
+    <!--Bebidas-->
+    <section class="category">
+        <a id="bebidas"><span class="titulo-categoria">Bebidas</span></a>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/gaseosa.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Gaseosa</span>
+                    <p>linea Coca-Cola 500ml</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/agua.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Agua Mineral</span>
+                    <p>Agua villaviecencio 500ml</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/cerveza.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Cerveza Andes</span>
+                    <p>Lata x 500ml</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/quilmes.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Cerveza Quilmes</span>
+                    <p>Porron 510ml</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+        <div class="category-item row">
+            <div class="img-category col-2">
+                <img src="imagenes/vinos.png" alt="">
+            </div>
+            <div class="description col-6">
+                <div class="title-food">
+                    <span>Vinos</span>
+                    <p>Bodega "Mosquita Muerta Wines"</p>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="price">
+                    <span>$200.-</span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <a href="#arriba" class="btn-up"><img src="imagenes/up.svg" alt="" class="img-up"></a>
+    <footer>
+        <div class="container" id="footer" >
+            <div class="row row-footer">
+               <div class="col-3 icon-footer">
+                <a href="https://www.instagram.com/" target="_blank" class="redes"><img src="imagenes/instagram-brands.svg" alt="" class="icon"></i></a>
+               </div>
+               <div class="col-3 icon-footer">
+                <a href="https://wa.me/542236699234?text=Hola!%20Quiero%20hacer%20un%20pedido%20de%20un%20menú%20." target="_blank" class="redes wsp"><img src="imagenes/whatsapp-brands.svg" alt="" class="icon"></i></a>
+               </div>
+               <div class="col-3 icon-footer">
+                <a href="#" target="_blank" class="redes phone"><img src="imagenes/llamada-telefonica.svg" alt="" class="icon phone"></i></a>
+               </div>
+               <div class="col-3 icon-footer">
+                <a href="https://goo.gl/maps/bbdc4uWkLQhMVkCz7" target="_blank" class="redes"><img src="imagenes/ubicacion.svg" alt="" class="icon"></i></a>
+               </div>
+           </div>
+       </div>
+        <div class="container text-center">
+            <small>Copyright &copy; Kalanchoe Web Site</small>
+          </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
